@@ -7,6 +7,15 @@ public class Car {
     final int MAX_SPEED = 200;
     int wheelsAngle = 0;
     String gear = "N";
+
+    public Car() {
+    }
+
+    public Car(String toyota, String corolla, String gasoline) {
+
+    }
+
+
     void start() {
         tachometer = 1000;
     }
